@@ -1,0 +1,11 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+
+  &__logo {
+    background-image: url("/images/logo.png");
+    width: 351px;
+    height: 117px;
+  }
+}

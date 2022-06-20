@@ -1,0 +1,11 @@
+html {
+  background: #4B69FD;
+  border: 2px solid #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
