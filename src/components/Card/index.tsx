@@ -2,10 +2,10 @@ import styles from './Card.module.scss';
 
 const Card: React.FC = ({ children }) => {
   return (
-    <div>
+    <div className={styles.card}>
       {children}
     </div>
   );
-}
+};
 
 export default Card;

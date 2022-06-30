@@ -1,0 +1,36 @@
+.rodape_configuracoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botao {
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  box-shadow: 2px 2px 0px 1px black;
+  border-radius: 45px;
+  background-color: #fe652b;
+  color: white;
+  cursor: pointer;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 800px) {
+  .botao {
+    width: 220px;
+    margin: 32px 0;
+  }
+
+  .rodape_configuracoes {
+    flex-direction: column;
+
+    img {
+      margin-top: 32px;
+    }
+  }
+}

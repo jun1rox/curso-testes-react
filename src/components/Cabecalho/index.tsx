@@ -8,6 +8,6 @@ const Cabecalho = () => {
       <img className={styles.cabecalho__participante} src={participante} alt='Participante com um presente na mão' />
     </header>
   );
-}
+};
 
 export default Cabecalho;
