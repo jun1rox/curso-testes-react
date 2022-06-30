@@ -2,7 +2,9 @@
 
 exports[`a pagina de configuração deve ser renderizada corretamente 1`] = `
 <div>
-  <div>
+  <div
+    class="card"
+  >
     <section>
       <h2>
          Vamos começar! 
@@ -34,6 +36,10 @@ exports[`a pagina de configuração deve ser renderizada corretamente 1`] = `
         >
           Iniciar brincadeira!
         </button>
+        <img
+          alt="Sacolas de compras"
+          src="sacolas.png"
+        />
       </footer>
     </section>
   </div>
